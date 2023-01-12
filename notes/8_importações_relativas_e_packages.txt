@@ -1,0 +1,33 @@
+6Imports relativos: Obetem outro arquivo dentro da pasta 
+lib do projeto sem fazer ref~encia ao nome do próprio projeto. É
+como se a pasta lib fosse a raiz do projeto.
+
+ex: import '../products/book.dart';     
+
+vantagens:
+    nomes mais curtos e claros;
+    Fica claro que pertence ao projeto e não a algum package (maior vantagem)
+    Se vc mover a pasta pai, não quebrará todas as importaçõe da pasta
+-------------------------------------------------
+Importação de pacotes: São caminhos absolutos mas apenas para pasta lib pra frente.a
+
+ex: import 'package:my_package/product/book.dart';    
+
+vantagens: 
+    Você sabe exatamente onde cada Importação está localizada
+em todos os detalhes.
+
+--------------------------------------------------
+A escolha de qual usar fica a seu criterio 
+É possivel ter importações diferente dentro do mesmo projeto
+Códigos de terceiros devem sempre ser importados utilizando packages
+--------------------------------------------------
+
+Lint: Tras boas práticas ao projeto
+
+Alterar o linter para definir o padrão do projeto
+
+analysis_options.yaml > Descomentar linter > descomentar rules > adicionar a regra
+
+ - prefer_relative_imports: true
+ - always_use_package_imports: true

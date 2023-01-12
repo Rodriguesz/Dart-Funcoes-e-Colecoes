@@ -1,0 +1,10 @@
+Parametros nomeados são nullables por padrão, então precisa especificar que eles podem receber nulo com o "?"
+
+
+ex: double somaDoubles({double? numero1, double? numero2}){}
+
+é necessario fazer a checagem para os parametros nomeados serem promovidos para non-null
+
+ex: if (numero1 != null && numero2 != null) {
+    return numero1 + numero2;
+  }

@@ -1,0 +1,8 @@
+Map é uma classe dart
+                                                 chave   valor
+para criar um map é necessário colocar 2 tipos (<tipo1, tipo2>{})
+
+EXEMPLOS: 
+    final nomeVariavel = <String, String>{}; ------- Vira um map com uma chave do tipo String e valor do tipo String
+    final nomeVariavel = {} ------- Vira um Map com chave e valor do tipo dynamic
+    final nomeVariavel = <String>{} ------- Vira um Set ao invés de map

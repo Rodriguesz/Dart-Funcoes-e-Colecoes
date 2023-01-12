@@ -1,0 +1,8 @@
+capacidade de trazer
+
+pode-se dar aperlidos para os imports, assim não tendo conflito caso haja duas funções com o mesmo
+nome de packages diferentes
+
+ex:
+import 'calculos/somas.dart' as soma;
+import 'novos_calculos/somas.dart' as nova_soma;

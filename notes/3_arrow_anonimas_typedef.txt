@@ -1,0 +1,16 @@
+arrow function: serve para otimizar a estrutura da função. São funções simples
+de apenas uma linha. Sua utilização não muda em nada.
+
+ex: int somaInteiros(int numero1, int numero2) => numero1 + numero2;
+
+função anônima: uma função sem nome e sem tipo de retorno que pode estar associada a uma 
+váriavel. A váriavel criada irá receber a função. Só pode ser chamada dentro da classe 
+em que foi criada.
+
+ex: var funcaoQualquer = (){};
+
+Typedef: tipo definido. É como se vc criasse um apelido para a função. É util para
+reutilizar funções dentro de funções
+
+
+ex: typedef funcaoQueRecebeNome = Function(String nome);

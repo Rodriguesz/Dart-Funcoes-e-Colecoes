@@ -1,0 +1,3 @@
+Pode ser usado como Set() ou simplesmente {}
+
+A vantagem do set em relação a lista comum é q não pode conter valores duplicados

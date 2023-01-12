@@ -1,0 +1,1 @@
+Tem 3 estruturas: O tipo de retorno, nome e parâmetros

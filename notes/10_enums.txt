@@ -1,0 +1,1 @@
+Util para se trabalhar com várias variáveis simples constantes

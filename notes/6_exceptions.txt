@@ -1,0 +1,15 @@
+É uma mensagem de erro muito utilizada nos sistemas que apresenta o erro de forma
+mais amigavel ao usuario.
+
+Sua estrutura é feita através de dois comando: try{} catch()
+
+ex: 
+    String idade = '38 anos';
+    try{
+        int.parse(idade);
+    }catch(erro){
+        print(erro); - mensagem de erro padrão
+        print('Erro ao converter idade');
+    }
+
+todas as excessões são filhas de Exception();
